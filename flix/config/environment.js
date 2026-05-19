@@ -15,8 +15,8 @@ const config = {
 
   // Server Configuration
   PORT: process.env.PORT || 3001,
-  SOCKET_PORT: process.env.SOCKET_PORT || 3000,
-  HOST: process.env.HOST || 'localhost',
+  SOCKET_PORT: process.env.SOCKET_PORT || process.env.PORT || 3000,
+  HOST: process.env.HOST || '0.0.0.0',
 
   // Database Configuration
   DATABASE: {

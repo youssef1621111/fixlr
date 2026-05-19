@@ -1,0 +1,9 @@
+{
+  "name": "flix-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd flix && npm start",
+    "postinstall": "cd flix && npm install --no-audit --no-fund"
+  }
+}
